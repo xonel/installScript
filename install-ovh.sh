@@ -13,7 +13,7 @@
 # https://github.com/armbian/config/blob/master/debian-software
 # https://forum.openmediavault.org/index.php/Thread/25062-Install-OMV5-on-Debian-10-Buster/
 #
-# version: 1.6.22
+# version: 1.6.22 ovh
 #
 
 if [[ $(id -u) -ne 0 ]]; then
