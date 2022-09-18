@@ -44,10 +44,24 @@ And for the OMV-Extras visit https://wiki.omv-extras.org/
 ### Get help for this script in the forum
 If you got stuck in any part of this script the openmediavault forum will be the place to find a solution https://forum.openmediavault.org/
 
-
+----
 https://didrod.blogspot.com/2020/02/installer-openmediavault-sur-un-serveur_69.html
 
 cfdisk
+fdisk -l
+
+Device          Start        End    Sectors  Size Type
+/dev/sda1        2048       4095       2048    1M BIOS boot
+/dev/sda2        4096   40964095   40960000 19.5G Linux filesystem
+/dev/sda3    40964096   42012671    1048576  512M Linux filesystem
+/dev/sda4  3907025072 3907029134       4063    2M Linux filesystem
+
+/dev/sda5    42012672 3907025071 3865012400  1.8T Linux filesystem
+
+mkfs.ext4 /dev/sda5 
+
+
+
 
 ----
 https://docs.openmediavault.org/en/stable/installation/on_debian.html
