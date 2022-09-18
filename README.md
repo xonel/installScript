@@ -47,6 +47,7 @@ If you got stuck in any part of this script the openmediavault forum will be the
 ----
 https://didrod.blogspot.com/2020/02/installer-openmediavault-sur-un-serveur_69.html
 
+```bash
 cfdisk
 fdisk -l
 
@@ -61,7 +62,7 @@ Device          Start        End    Sectors  Size Type
 mkfs.ext4 /dev/sda5 
 
 
-
+```
 
 ----
 https://docs.openmediavault.org/en/stable/installation/on_debian.html
